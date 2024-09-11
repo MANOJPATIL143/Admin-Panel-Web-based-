@@ -1,9 +1,23 @@
 ﻿# Admin-Panel-Web-based-
 
- Customer Chat
-Overview
-The Customer Chat feature enables one-to-one communication between customers and service providers. It includes functionalities for viewing chat history and sending messages.
+Default Admin Credentials
 
+Username: admin
+
+Password: password123
+
+
+
+# MERN Stack Admin Panel
+
+This project is a MERN stack admin panel for managing services, bookings, reviews, customer chat, and notifications. It provides functionalities for admin login, viewing statistics, managing customer and service provider details, and more.
+
+## Features
+
+- **Admin Login & Dashboard**: Admin can log in to view total customers and service providers, and manage their details.
+- **Service Management**: Add, modify, and categorize services with pricing.
+- **Booking & Review Management**: View payment history and manage service provider reviews.
+- **Customer Chat & Notifications**: View customer chat history and send notifications to users and service providers.
 Backend Implementation
 Data Model:
 
@@ -35,20 +49,61 @@ message content of the notification.
 read status to track whether the notification has been read.
 API Endpoints:
 
-GET Endpoint: Fetches notifications for a specified user.
-PUT Endpoint: Updates the notification status to mark it as read.
-Frontend Implementation
-Notifications Component:
-Purpose: Display a list of notifications and provide functionality to mark them as read.
-Features:
-Retrieves notifications from the backend.
-Displays a message when no notifications are available.
-Allows users to mark notifications as read, updating the notification list accordingly.
-Conditional Display
-Notifications Count Check:
-Purpose: Hide the notifications list if there are no notifications.
-Implementation: Conditional rendering is used to show an alert message when the notifications count is zero, ensuring that users are informed when there are no notifications available.
-Integration Summary
-Data Handling: Both chat and notifications rely on a backend data model to store and manage information, which is accessed via API endpoints.
-User Interface: React components are used to interact with the backend, display data, and provide user interactions like sending messages or marking notifications as read.
-Conditional Rendering: Ensures a clean and user-friendly interface by displaying appropriate messages or components based on the availability of data.
+Replace <project-directory> with the name of the cloned project folder.
+
+ Set Up the Backend
+- Navigate to the server directory:
+  ```
+  cd server
+  ```
+- Install backend dependencies:
+  ```
+  npm install
+  ```
+- Create a .env file in the server directory and add your MongoDB connection string and any other environment variables (e.g., PORT, JWT_SECRET):
+  ```
+  MONGO_URI=<your-mongodb-connection-string>
+  JWT_SECRET=<your-jwt-secret>
+  PORT=5000
+  ```
+- Start the backend server:
+  ```
+  node server.js
+  ```
+
+4. Set Up the Frontend
+- Open a new terminal window and navigate to the client directory:
+  ```
+  cd client
+  ```
+- Install frontend dependencies:
+  ```
+  npm install
+  ```
+- Start the frontend development server:
+  ```
+  npm start
+  ```
+- Open your browser and navigate to http://localhost:3000.
+
+Default Admin Credentials:
+
+- Username: admin
+- Password: password123
+
+Note: Update these credentials in the database or during the first login.
+
+Project Structure:
+
+/project-directory
+|-- /client           # React frontend
+|-- /server           # Express backend
+|-- README.md         # Project documentation
+
+Contributing:
+
+Feel free to fork this repository, make changes, and submit a pull request. All contributions are welcome!
+
+License:
+
+This project is open-source and available under the MIT License.
