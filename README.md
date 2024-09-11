@@ -1,12 +1,25 @@
 ﻿# Admin-Panel-Web-based-
 
-USERNAME = admin
-PASSWORD =password123
+Default Admin Credentials
+Username: admin@example.com
+Password: admin123
 
- Customer Chat
-Overview
-The Customer Chat feature enables one-to-one communication between customers and service providers. It includes functionalities for viewing chat history and sending messages.
+/project-directory
+|-- /client           # React frontend
+|-- /server           # Express backend
+|-- README.md         # Project documentation
 
+
+# MERN Stack Admin Panel
+
+This project is a MERN stack admin panel for managing services, bookings, reviews, customer chat, and notifications. It provides functionalities for admin login, viewing statistics, managing customer and service provider details, and more.
+
+## Features
+
+- **Admin Login & Dashboard**: Admin can log in to view total customers and service providers, and manage their details.
+- **Service Management**: Add, modify, and categorize services with pricing.
+- **Booking & Review Management**: View payment history and manage service provider reviews.
+- **Customer Chat & Notifications**: View customer chat history and send notifications to users and service providers.
 Backend Implementation
 Data Model:
 
