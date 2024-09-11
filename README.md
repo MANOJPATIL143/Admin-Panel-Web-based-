@@ -2,9 +2,9 @@
 
 Default Admin Credentials
 
-Username: admin@example.com
+Username: admin
 
-Password: admin123
+Password: password123
 
 
 
@@ -88,8 +88,8 @@ Replace <project-directory> with the name of the cloned project folder.
 
 Default Admin Credentials:
 
-- Username: admin@example.com
-- Password: admin123
+- Username: admin
+- Password: password123
 
 Note: Update these credentials in the database or during the first login.
 
