@@ -68,7 +68,7 @@ Replace <project-directory> with the name of the cloned project folder.
   ```
 - Start the backend server:
   ```
-  npm start
+ node server.js
   ```
 
 4. Set Up the Frontend
