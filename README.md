@@ -1,5 +1,8 @@
 ﻿# Admin-Panel-Web-based-
 
+USERNAME = admin
+PASSWORD =password123
+
  Customer Chat
 Overview
 The Customer Chat feature enables one-to-one communication between customers and service providers. It includes functionalities for viewing chat history and sending messages.
