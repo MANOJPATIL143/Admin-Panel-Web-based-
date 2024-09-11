@@ -107,8 +107,8 @@ const Tables = () => {
       <Table striped className="mt-4">
         <thead>
           <tr>
-            <th>Provider</th>
-            <th>Customer</th>
+            {/* <th>Provider</th> */}
+            {/* <th>Customer</th> */}
             <th>Rating</th>
             <th>Comment</th>
             <th>Actions</th>
@@ -117,8 +117,8 @@ const Tables = () => {
         <tbody>
           {reviews.map(review => (
             <tr key={review._id}>
-              <td>{review.providerId.name}</td>
-              <td>{review.customerId.name}</td>
+              {/* <td>{review.providerId.name}</td>/ */}
+              {/* <td>{review.customerId.name}</td> */}
               <td>{review.rating}</td>
               <td>{review.comment}</td>
               <td>
