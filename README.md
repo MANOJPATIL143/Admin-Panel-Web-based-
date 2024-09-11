@@ -51,7 +51,7 @@ API Endpoints:
 
 Replace <project-directory> with the name of the cloned project folder.
 
-3. Set Up the Backend
+ Set Up the Backend
 - Navigate to the server directory:
   ```
   cd server
