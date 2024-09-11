@@ -1,13 +1,11 @@
 ﻿# Admin-Panel-Web-based-
 
 Default Admin Credentials
+
 Username: admin@example.com
+
 Password: admin123
 
-/project-directory
-|-- /client           # React frontend
-|-- /server           # Express backend
-|-- README.md         # Project documentation
 
 
 # MERN Stack Admin Panel
