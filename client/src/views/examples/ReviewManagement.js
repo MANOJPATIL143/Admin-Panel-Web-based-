@@ -37,6 +37,8 @@ const Tables = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("hie");
+    
     try {
       if (editingReview) {
         await axios.put(`http://localhost:5000/api/reviews/${editingReview._id}`, form);
